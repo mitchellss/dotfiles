@@ -86,4 +86,9 @@
         "key": "ctrl+shift+o",
         "command": "-workbench.action.gotoSymbol"
     },
+    {
+        "key":     "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when":    "terminalFocus"
+    },
 ]
